@@ -1,45 +1,79 @@
 * {
-    background-color: black;
-    color: #fff;
+    background-color: #165B33;
+    color: #F8B229;
+    box-sizing: border-box;
 }
+
 body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
+    font-family: sans-serif;
+    margin: 0px 0px 0px 0px;
+    max-width: 100%;
 }
-h1 {
-    font-size: 50px;
+header, header nav, header a {
+    background-color: #BB2528;
 }
 
-header li {
-    text-align: right;
-    float: right;
+#fixedHeader {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
     padding: 25px;
 }
 
-header, ul, h1, li, nav#links, header a {
-    flex-direction: row;
-    background-color: #339146;
-    display: inline;
-}
-
-ul {
-    display: inline;
-    justify-content: space-between;
-}
-
-nav#links {
-    position: relative;
-    font-size: 25px;
-
-}
-
-img {
-    display: inline-block;
-    float: left;
+a {
+    margin-top: 100px;
+    padding: 10px;
+    font-size: 40px;
+    margin: 20px;
 }
 
 h2 {
+    font-size: 50px;
+    text-align:center;
+}
+
+.contactSection {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactSection img {
+    padding: 100px;
+}
+#secondSection {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#secondSection img {
+    padding: 100px;
+}
+
+section {
+    padding: 50px;
+}
+
+.isYaBoi {
+    display: block;
+    position: relative;
+    float: left;
+    padding: 90px;
+}
+.Johns {
+    position: absolute;
+    top: 85%;
+    right: 21%;
+    font-size: 75px;
+}
+
+h1 {
+    font-size: 50px;
     text-align: center;
 }
